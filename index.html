@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <h1>Next-card</Next-card>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for products, brands and more">
+        <button>Search</button>
+      </div>
+      <div class="links">
+        <a href="login.html">Login</a>
+        <a href="cart.html">Cart</a>
+      </div>
+    </nav>
+
+    <!-- Explore Plus Section -->
+    <section class="explore-plus">
+      <h2>Explore Plus</h2>
+      <p>Get exclusive benefits and offers with Explore Plus membership</p>
+    </section>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <section class="filter-section">
+      <h2>Filter by Price Range</h2>
+      <input type="range" id="priceRange" min="0" max="1000" value="1000" step="10">
+      <span id="priceValue">$1000</span>
+    </section>
+
+    <!-- Card View Option -->
+    <section class="view-options">
+      <button id="cardView" class="view-button">Card View</button>
+      <button id="listView" class="view-button">List View</button>
+    </section>
+
+    <section class="categories">
+      <h2>Shop By Categories</h2>
+      <div class="category-list" id="categoryList">
+        <div class="category-item card-view">
+          <a href="mobile.html"><img src="photos/phone" alt="mobile"></a>
+          <h3>Mobs</h3>
+          <p>Range of electronics products</p>
+        </div>
+        <div class="category-item card-view">
+          <a href="tv.html"><img src="photos/home elec.jpeg"TVs & Appliancesalt="mobile">
+          <h3>TVs & Appliances</h3>
+          <p>Latest TVs and Home Appliances</p>
+        </div>
+        <div class="category-item card-view">
+          <a href="men.html"><img src="photos/Clothing and Accessories for Men.avif" alt="men"></a>
+          <h3>Men</h3>
+          <p>Clothing and Accessories for Men</p>
+        </div>
+        
+        <div class="category-item card-view">
+          <a href="woman.html"><img src="photos/woman.jpg" alt="men"></a>
+          <h3>woman</h3>
+          <p>Fashion and Accessories for woman</p>
+        </div>
+
+        <div class="category-item card-view">
+            <a href="kitchen.html"><img src="photos/KITCHEN.avif" alt="kitchen"></a>
+            <h3>KITCHEN</h3>
+            <p>kitchen appilications</p>
+          </div>
+
+          <div class="category-item card-view">
+            <a href="tv.html"><img src="photos/Latest TVs and Home Appliance.avif" alt="mobile"></a>
+            <h3>Home applications</h3>
+            <p>Tv,Ac,Laptop camera
+            </p>
+          </div>
+
+      </div>
+    </section>
+
+    <!-- Offer Zone -->
+    <section class="offer-zone">
+      <h2>Offer Zone</h2>
+      <p>Exclusive deals just for you!</p>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 MyStore - Powered by Next-card shoping
+  </footer>
+
+  <!-- Login Modal (for simplicity) -->
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <h2>Login</h2>
+      <form>
+        <label for="email">Enter Email/Mobile Number</label>
+        <input type="text" id="email" name="email" required>
+        <button type="submit">Request OTP</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

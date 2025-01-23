@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .item {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .item h3 {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+        }
+        .item p {
+            color: #666;
+            margin: 10px 0;
+        }
+        .item button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .item button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Electronics Catalog</h1>
+
+    <div class="catalog">
+        <div class="item">
+            <img src="photos/tawa.jpeg" alt="Nirlon Special nonstick">
+            <h3>Nirlon Special nonstick</h3>
+            <p>Nirlon Special nonstick tawaa, Flat Base dosa Tawa, 28cm*1.8cm (3 Layered Coated)</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="photos/Wooden Serving and Cooking Spoons Set.jpg" alt="Wooden Serving and Cooking Spoons Set">
+            <h3>Wooden Serving and Cooking Spoons Set</h3>
+            <p>Wooden Serving and Cooking Spoons Set Kitchen Organizer
+              </p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="photos/cooker.jpg" alt="Pigeon Inox Rice Cooker">
+            <h3>Pigeon Inox Rice Cooker</h3>
+            <p>Pigeon Inox Rice Cooker with Double pot, 1.8 litres | Stainless Steel Lid | 700 Watts | 2 Steel Cooking Pot | Measuring Cup | Spatula | Energy Efficient Cooking</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="photos/indection.jpg" alt="Longway Elite Plus IC 2000 Watt Induction">
+            <h3> Induction</h3>
+            <p>Longway Elite Plus IC 2000 Watt Induction.</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .item {
+            background-color: #e0e9e7;
+            width: 60%;
+            height: 350px;
+            padding: 20%;
+            border-radius: 0%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        
+        }
+        .item img {
+            width: 100%;
+            height: 300;
+            object-fit: cover;
+            border-radius: 0;
+        }
+        .item h3 {
+            font-size: 1.2em;
+            color: #333;
+            margin-top: 0%;
+        }
+        .item p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .item button {
+            padding: 10px 20px;
+            background-color: #142197db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .item button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mobile Catalog</h1>
+
+    <div class="catalog">
+        <div class="item">
+            <img src="photos/iphone.jpeg" alt="Smartphone">
+            <h3>iphone</h3>
+            <p>High-end smartphone with 128GB storage and a 48MP camera.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="photos/cmf nothing.jpeg" alt="Headphones">
+            <h3>CMF Nothing</h3>
+            <p>nothing smart phone</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="photos/samsung.jpeg" alt="Smartwatch">
+            <h3>samsung mobile</h3>
+            <p>Smartwatch with fitness tracking, heart-rate monitor, and notifications.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="photos/oneplus.jpeg" alt="Phone Case">
+            <h3>oneplus</h3>
+            <p>Durable silicone phone case available in various colors.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="photos/oppo.jpeg" alt="Power Bank">
+            <h3>oppo</h3>
+            <p>camera expert .</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="photos/vivo.jpeg" alt="Mobile Accessories">
+            <h3>vivo</h3>
+            <p>s.</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    
+
+</body>
+</html>
